@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Rationale';
+    src: url('Rationale/Rationale-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body, .flex_container,.last_btn{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+}
+
+body,.last_btn{
+    justify-content: center;
+}
+
+.flex_container{
+    justify-content: space-between;
+}
+
+section{
+    max-width: 60%;
+}
+
+.setter_container{
+    margin: 0 10px;
+    padding: 0 20px;
+    width: 80px;
+    text-align: center;
+}
+
+.plus_buttons{
+    margin-right: 2px;
+}
+
+.mius_buttons{
+    margin-left: 2px;
+}
+
+p{
+    text-align: center;
+    font-family: 'Rationale',sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+#completion_message{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 8px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Rationale',sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.plus_buttons, .mius_buttons{
+    border-radius: 10px;
+}
+
+.plus_buttons, .mius_buttons,.control_btns{
+    border: none;
+    color: white;
+    box-shadow: 0 0 8px black;
+    background-color: hsl(0, 0%, 23%);
+    transition: background-color 0.25s;
+}
+
+.plus_buttons:hover, .mius_buttons:hover,.control_btns:hover{
+    background-color: hsl(0, 0%, 33%);
+}
+
+.plus_buttons:active, .mius_buttons:active,.control_btns:active{
+    background-color: hsl(0, 0%, 53%);
+}
+
+.control_btns{
+    margin: 30px 10px;
+    width: 100px;
+    padding: 2px 0;
+    border-radius: 6px;
+}
+
+.stop_btn,.hide,.show_m, .counter_disp{
+    display: none;
+}
+
+.show,.show_message,.done{
+    display: flex;
+    justify-content: center;
+}

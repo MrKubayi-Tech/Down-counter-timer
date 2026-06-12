@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <section>
+            <div>
+                <p id="counter_container"><span id="hours">HH</span>&colon;<span id="minutes">MM</span>&colon;<span id="seconds">SS</span></p>
+                <p id="completion_message" class="show_m">Counting completed</p>
+            </div>
+            <div class="flex_container">
+                <div class="setter_container">
+                    <h4>Hours</h4>
+                    <div class="button_container">
+                        <button class="plus_buttons" onclick="set_timer('h+')">&plus;</button>
+                        <button class="mius_buttons" onclick="set_timer('h-')">&minus;</button>
+                    </div>
+                </div>
+                <div class="setter_container">
+                    <h4>Minutes</h4>
+                    <div class="button_container">
+                        <button class="plus_buttons" onclick="set_timer('m+')">&plus;</button>
+                        <button class="mius_buttons" onclick="set_timer('m-')">&minus;</button>
+                    </div>
+                </div>
+                <div class="setter_container button_container">
+                    <h4>Seconds</h4>
+                    <div class="button_container">
+                        <button class="plus_buttons" onclick="set_timer('s+')">&plus;</button>
+                        <button class="mius_buttons" onclick="set_timer('s-')">&minus;</button>
+                    </div>
+                </div>
+            </div>
+            <div  class="last_btn">
+                <button class="control_btns" id="start_btn" onclick="start_timer()">START</button>
+                <button id="stop_btn" class="control_btns stop_btn" onclick="stop_timer()">STOP</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
