@@ -6,9 +6,7 @@ Here’s a preview of the timer interface:
 
 | Default Template | Countdown Active |
 |------------------|------------------|
-| ![Default Timer](screenshots/default.png) | ![Countdown Running](screenshots/countdown.png) |
-
-*(Replace filenames with your actual screenshot names.)*
+| ![Default Timer](screenshots/initial.png) | ![Countdown Running](screenshots/counting.png) |
 
 ---
 
