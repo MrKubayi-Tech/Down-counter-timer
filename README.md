@@ -30,3 +30,10 @@ It lets users set a custom time (HH:MM:SS), start the countdown, stop it midway,
 ---
 
 ## 📂 Project Structure
+Down-counter-timer/
+│
+├── index.html        # Main HTML file
+├── style.css         # Styling for layout and buttons
+├── script.js         # Countdown logic and event handling
+├── screenshots/      # UI preview images
+└── README.md         # Project documentation
