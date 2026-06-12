@@ -6,7 +6,7 @@ Here’s a preview of the timer interface:
 
 | Default Template | Countdown Active |
 |------------------|------------------|
-| ![Default Timer](Screenshorts/initial.png) | ![Countdown Running](Screenshorts/counting.png) |
+| ![Default Timer](initial.png) | ![Countdown Running](counting.png) |
 
 ---
 
